@@ -3,7 +3,7 @@ let listadenomeProduto = [];
 let listadevalorUnitario = [];
 let totalgeral = 0;
 document.getElementById('lista-produtos').innerHTML = '';
-document.getElementById('lista-produtos').textContent = '0 reais liso';
+document.getElementById('lista-produtos').textContent = '0 reais ';
 
 function adicionar() {
     let produto = document.getElementById('produto').value;
